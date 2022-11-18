@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <strong>React Nutri</strong>
+        <strong>Dicas de Nutrição</strong>
       </header>
 
       {nutri.map((item)=>{
@@ -30,6 +30,7 @@ function App() {
             <p className="subtitulo">
               {item.subtitulo}
             </p>
+            <a className="botao">Acessar</a>
           </article>
         )
       })}
